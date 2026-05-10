@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Lyrics Overlay — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      line-height: 1.7;
+      color: #202124;
+      background: #fff;
+    }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    h2 { font-size: 18px; margin-top: 32px; margin-bottom: 12px; color: #202124; }
+    p, li { font-size: 15px; color: #5f6368; margin-bottom: 8px; }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    .meta { font-size: 13px; color: #9aa0a6; margin-bottom: 32px; }
+    a { color: #1a73e8; }
+    .contact { background: #f8f9fa; padding: 16px; border-radius: 8px; margin-top: 32px; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: May 2026 &nbsp;·&nbsp; YouTube Lyrics Overlay</p>
+
+  <h2>Overview</h2>
+  <p>
+    YouTube Lyrics Overlay ("the Extension") is designed with privacy in mind.
+    The Extension does not collect, store, transmit, or share any personal
+    information about its users.
+  </p>
+
+  <h2>Data Usage</h2>
+  <p>The Extension stores the following locally on your device:</p>
+  <ul>
+    <li>Overlay position, size, opacity, font scale, and toolbar open/closed state — stored in your browser's local storage to persist your preferences between sessions.</li>
+    <li>No accounts, no user profiles, no analytics, no tracking pixels, and no third-party data collection.</li>
+  </ul>
+  <p>
+    All data remains entirely on your device and is never transmitted to any
+    external server, except for the following API call:
+  </p>
+  <ul>
+    <li>
+      <strong>LRCLIB API</strong> — when you load a YouTube video, the Extension
+      sends the video's title and artist name to
+      <a href="https://lrclib.net" target="_blank" rel="noopener">lrclib.net</a>
+      to retrieve synced lyrics. This API call does not include any personally
+      identifiable information beyond the video metadata displayed on YouTube.
+    </li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li>
+      <strong>youtube.com</strong> — required to detect the currently playing
+      video, read its metadata (title and channel), and inject the lyrics overlay.
+    </li>
+    <li>
+      <strong>lrclib.net</strong> — required to fetch synced lyrics for the
+      detected video.
+    </li>
+    <li>
+      <strong>storage</strong> — browser's built-in local storage, used
+      exclusively to save your overlay preferences (position, size, opacity, etc.).
+    </li>
+  </ul>
+
+  <h2>Cookies</h2>
+  <p>
+    The Extension does not use cookies or any other tracking technologies.
+  </p>
+
+  <h2>Data Retention</h2>
+  <p>
+    All preference data is stored locally in your browser. Clearing your browser's
+    browsing data will remove stored preferences. Uninstalling the Extension will
+    also remove all stored data.
+  </p>
+
+  <h2>Third-Party Services</h2>
+  <p>
+    The Extension uses the
+    <a href="https://lrclib.net" target="_blank" rel="noopener">LRCLIB</a>
+    API to fetch lyrics. Please review
+    <a href="https://lrclib.net" target="_blank" rel="noopener">LRCLIB's own privacy policy</a>
+    for information about how they handle requests.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    The Extension is not intended for use by children under 13 years of age.
+  </p>
+
+  <h2>Changes to This Policy</h2>
+  <p>
+    If this privacy policy is ever updated, the revised policy will be posted at
+    this URL with an updated "Last updated" date.
+  </p>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>
+      If you have any questions about this privacy policy, please reach out
+      through the Chrome Web Store listing or open an issue on the
+      <a href="https://github.com/YOUR_GITHUB/YOUR_REPO" target="_blank" rel="noopener">GitHub repository</a>.
+    </p>
+    <p>
+      <em>Replace the GitHub repository link above with your actual repository URL.</em>
+    </p>
+  </div>
+
+</body>
+</html>
