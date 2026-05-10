@@ -1,0 +1,15 @@
+# Build artifacts
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.sublime-*
+.vscode/
+.idea/
+
+# Logs
+*.log

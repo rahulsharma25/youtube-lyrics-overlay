@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Lyrics Overlay",
+  "description": "Overlay synced lyrics on YouTube videos with live highlighting.",
+  "version": "0.1.0",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://lrclib.net/*"
+  ],
+  "background": {
+    "service_worker": "src/background/service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/watch*"
+      ],
+      "js": [
+        "src/content/sync-engine.js",
+        "src/content/content-script.js"
+      ],
+      "css": [
+        "src/content/overlay.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
