@@ -3,6 +3,11 @@
   "name": "YouTube Lyrics Overlay",
   "description": "Overlay synced lyrics on YouTube videos with live highlighting.",
   "version": "1.0.0",
+  "icons": {
+    "16": "icons/icon_16x16.png",
+    "48": "icons/icon_48x48.png",
+    "128": "icons/icon_128x128.png"
+  },
   "permissions": [
     "storage"
   ],
