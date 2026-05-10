@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YouTube Lyrics Overlay",
   "description": "Overlay synced lyrics on YouTube videos with live highlighting.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "permissions": [
     "storage"
   ],
